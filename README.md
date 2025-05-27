@@ -107,13 +107,14 @@ local cosmeticslist = {
     {Name = "Large Path Tile", Price = 650000, Rarity = "Common"},
     {Name = "Medium Path Tile", Price = 550000, Rarity = "Common"},
     {Name = "Small Path Tile", Price = 250000, Rarity = "Common"},
+    {Name = "Wood Pile", Price = 750000, Rarity = "Common"},
     {Name = "Shovel Grave", Price = 1000000, Rarity = "Uncommon"},
     {Name = "Light On Ground", Price = 1000000, Rarity = "Uncommon"},
     {Name = "Water Trough", Price = 2000000, Rarity = "Uncommon"},
     {Name = "Viney Beam", Price = 1000000, Rarity = "Uncommon"},
     {Name = "Large Wood Flooring", Price = 1000000, Rarity = "Uncommon"},
     {Name = "Medium Wood Flooring", Price = 1000000, Rarity = "Uncommon"},
-    {Name = "Mini Tv", Price = 1000000, Rarity = "Uncommon"},
+    {Name = "Mini TV", Price = 1000000, Rarity = "Uncommon"},
     {Name = "Small Wood Flooring", Price = 850000, Rarity = "Uncommon"},
     {Name = "Hay Bale", Price = 750000, Rarity = "Uncommon"},
     {Name = "Bookshelf", Price = 2000000, Rarity = "Uncommon"},
@@ -145,6 +146,8 @@ local cosmeticslist = {
     {Name = "Square Metal Arbour", Price = 13000000, Rarity = "Rare"},
     {Name = "Small Wood Arbour", Price = 13000000, Rarity = "Rare"},
     {Name = "Curved Canopy", Price = 12000000, Rarity = "Rare"},
+    {Name = "Sign Crate", Price = 55000000, Rarity = "Rare"},
+    {Name = "Common Gnome Crate", Price = 56000000, Rarity = "Rare"},
     {Name = "Flat Canopy", Price = 12000000, Rarity = "Rare"},
     {Name = "Large Wood Arbour", Price = 56000000, Rarity = "Legendary"},
     {Name = "Round Metal Arbour", Price = 56000000, Rarity = "Legendary"},
@@ -152,10 +155,14 @@ local cosmeticslist = {
     {Name = "Ring Walkway", Price = 55000000, Rarity = "Legendary"},
     {Name = "Frog Fountain", Price = 65000000, Rarity = "Legendary"},
     {Name = "Red Well", Price = 60000000, Rarity = "Legendary"},
+    {Name = "Farmer Gnome Crate", Price = 88000000, Rarity = "Legendary"},
+    {Name = "Fun Crate", Price = 88000000, Rarity = "Legendary"},
     {Name = "Brown Well", Price = 60000000, Rarity = "Legendary"},
     {Name = "Blue Well", Price = 60000000, Rarity = "Legendary"},
     {Name = "Green Tractor", Price = 556000000, Rarity = "Legendary"},
-    {Name = "Red Tractor", Price = 556000000, Rarity = "Legendary"}
+    {Name = "Red Tractor", Price = 556000000, Rarity = "Legendary"},
+    {Name = "Classic Gnome Crate", Price = 113000000, Rarity = "Mythical"},
+    {Name = "Statue Crate", Price = 113000000, Rarity = "Mythical"}
     }
     
 local CosmeticsShopTab = Window:MakeTab({
